@@ -209,8 +209,10 @@ address {
 
 .features-list {
   display: flex;
-
+  margin: 0;
+  padding-left: 0;
   justify-content: space-between;
+  gap: 24px;
 }
 
 .features-list-item {
@@ -219,13 +221,9 @@ address {
   flex-grow: 1;
 }
 
-.features-description {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  width: 264px;
+.features-wrap {
+  width: calc((100% - 3 * 24%) / 4);
+  gap: 24px;
 }
 
 .features-headlines {
@@ -237,9 +235,13 @@ address {
   color: #2e2f42;
 }
 
-.features-wrap {
-  width: calc((100% - 3 * 24%) / 4);
-  gap: 24px;
+.features-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  width: 264px;
 }
 
 .crew-section {
