@@ -221,13 +221,7 @@ address {
   flex-grow: 1;
 }
 
-.features-wrap {
-  width: calc((100% - 3 * 24%) / 4);
-  gap: 24px;
-}
-
 .features-headlines {
-  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
