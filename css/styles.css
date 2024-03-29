@@ -97,6 +97,7 @@ address {
 }
 
 .header-navigation {
+  align-items: center;
   display: flex;
   gap: 76px;
   margin-right: auto;
@@ -165,7 +166,7 @@ address {
 }
 
 .main-headline {
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto;
   font-weight: 700;
   font-size: 56px;
@@ -205,8 +206,7 @@ address {
 .about-team {
   display: flex;
   background-color: #fff;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
   padding-left: 156px;
 }
 
@@ -222,14 +222,12 @@ address {
 .features-list {
   display: flex;
   gap: 24px;
-  /* justify-content: center; */
-  /* width: 1128px; */
-  /* height: 104px; */
 }
 
 .features-list-item {
   padding-left: 0;
   margin-right: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .features-description {
@@ -300,6 +298,10 @@ address {
   color: #434455;
 }
 
+.portfolio {
+  margin-bottom: 8px;
+}
+
 .portfolio-list {
   font-weight: 500;
   font-size: 20px;
@@ -320,6 +322,7 @@ address {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-list-item {
@@ -328,16 +331,13 @@ address {
 }
 
 .portfolio-wrap {
-  padding-top: 32px;
-  padding-left: 16px;
-  padding-bottom: 32px;
+  border: 1px solid #e7e9fc;
+  padding: 32px 16px;
 }
 
 .footer-box {
   background: #2e2f42;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-left: 156px;
+  padding: 100px 0;
 }
 
 .footer-text {
