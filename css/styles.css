@@ -84,7 +84,6 @@ address {
   letter-spacing: 0.03em;
   margin-right: 76px;
   align-items: center;
-  padding-top: 24px;
 }
 
 .logo-web {
@@ -208,16 +207,6 @@ address {
   padding: 120px 0;
 }
 
-.company-values {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
-}
-
 .features-list {
   display: flex;
   gap: 24px;
@@ -238,6 +227,15 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
   width: 264px;
+}
+
+.features-headlines {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .features-wrap {
