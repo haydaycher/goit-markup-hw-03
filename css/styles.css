@@ -50,8 +50,7 @@ address {
 }
 
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -206,28 +205,30 @@ address {
 .about-team {
   display: flex;
   background-color: #fff;
-  padding: 120px 0;
-  padding-left: 156px;
+  padding: 120px 156px 120px 156px;
 }
 
-.features {
+.company-values {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .features-list {
   display: flex;
   gap: 24px;
+  justify-content: space-between;
+  height: 104px;
 }
 
 .features-list-item {
   padding-left: 0;
   margin-right: 24px;
-  width: calc((100% - 72px) / 4);
+  flex-grow: 1;
 }
 
 .features-description {
@@ -236,6 +237,7 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  width: 264px;
 }
 
 .features-wrap {
@@ -299,7 +301,7 @@ address {
 }
 
 .portfolio {
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -308,6 +310,7 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-list-description {
@@ -333,6 +336,8 @@ address {
 .portfolio-wrap {
   border: 1px solid #e7e9fc;
   padding: 32px 16px;
+  border-top: none;
+  width: 360px;
 }
 
 .footer-box {
