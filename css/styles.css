@@ -97,7 +97,6 @@ address {
 .header-navigation {
   align-items: center;
   display: flex;
-  gap: 76px;
   margin-right: auto;
   justify-content: space-between;
 }
@@ -115,11 +114,6 @@ address {
   color: #2e2f42;
   display: block;
   padding: 24px 0;
-  margin-right: 40px;
-}
-.studio-link {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .last-item {
@@ -148,7 +142,6 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-right: 40px;
 }
 
 .contacts-link:hover,
@@ -217,8 +210,8 @@ address {
 
 .features-list-item {
   padding-left: 0;
-  margin-right: 24px;
   flex-grow: 1;
+  width: calc((100% - 24px * 3) / 4);
 }
 
 .features-headlines {
@@ -262,14 +255,11 @@ address {
 }
 
 .crew-members {
-  margin-bottom: 32px;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
-  width: 264px;
-  height: 380px;
+  width: calc((100% - 24px * 3) / 4);
 }
 .crew-wrap {
   padding: 32px 0;
@@ -323,7 +313,7 @@ address {
 }
 
 .portfolio-list-item {
-  border: 1px solid #e7e9fc;
+  width: calc((100% - 24px * 3) / 4);
   width: 360px;
 }
 
